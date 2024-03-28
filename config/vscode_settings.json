@@ -1,0 +1,9 @@
+{
+    "go.testFlags": [
+        "-v",
+        "-count=1"
+    ],
+    "go.testEnvVars": {
+        "CHAT_DB_DSN": "example:example@tcp(localhost:3306)/example?charset=utf8mb4&autocommit=true&parseTime=true&loc=Local"
+    }
+}
